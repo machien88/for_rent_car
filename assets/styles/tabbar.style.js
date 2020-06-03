@@ -23,7 +23,7 @@ export default style = ScaledSheet.create({
     bottomButtons: {
         alignItems: 'center',
         justifyContent: 'flex-end',
-        marginBottom: '1@ms',
+        marginBottom: '-2@ms',
         flex: 1,
     },
     footerText: {

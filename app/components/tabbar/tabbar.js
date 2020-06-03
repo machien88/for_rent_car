@@ -38,11 +38,11 @@ class Tabbar extends Component {
             <Animatable.View animation="slideInUp" style={style.footer} >
                 <View style={style.footerMenu} >
                     <TouchableOpacity onPress={() => Actions.map_car()} style={style.bottomButtons}>
-                        <Icon name="headphones" size={32} color={index === 0 ? "#f55f22" : "#fff"} />
+                        <Icon name="headphones" size={30} color={index === 0 ? "#f55f22" : "#fff"} />
                         <Text style={style.footerText}>Map</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => Actions.list_car()} style={style.bottomButtons}>
-                        <Icon name="book-reader" size={32} color={index === 1 ? "#f55f22" : "#fff"} />
+                        <Icon name="book-reader" size={30} color={index === 1 ? "#f55f22" : "#fff"} />
                         <Text style={style.footerText}>List</Text>
                     </TouchableOpacity>
                 </View>
